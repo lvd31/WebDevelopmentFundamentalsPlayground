@@ -1,8 +1,43 @@
+/*   nav bar   */
+.nav ul{
+	list-style-type: none;
+	margin: 10%;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #f7eee6;
 
+}
 
+.nav li{
+	float: left;
+}
+
+.nav li a{
+	display: inline-black;
+	color: blue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	background-color: 111;
+}
+
+/*  index body  */
 body{
 	font-family: Arial;
 	background-image: url("../img/background.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+}
+
+/*  css playground body  */
+.cssplayground{
+	font-family: Arial;
+	background-image: url("../img/Storm.jpg");
 	width: 100%;
 	height: 100%;
 	background-size: 100%;
@@ -24,7 +59,11 @@ h1{
 .bored{
 	border: 10px solid black;
 	text-align: center;
-	background-color: white;
+	background-image: url("../img/lighting.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
 	
 }
 
