@@ -13,5 +13,21 @@ h1{
 }
 
 .cat{
-	color: blue;
+	color: white;
+	border:2px solid white;
+	background-color: black;
+	text-align: center;
+	list-style-position: inside;
+}
+
+
+.bored{
+	border: 10px solid black;
+	text-align: center;
+	background-color: white;
+	
+}
+
+.centering{
+	list-style-position: inside;
 }
