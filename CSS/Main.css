@@ -1,11 +1,17 @@
 /*   nav bar   */
+#title{
+	text-align: center;
+	font-family: cursive;
+		/*background-image: url("../img/title.jpg");*/
+
+}
 .nav ul{
 	list-style-type: none;
-	margin: 10%;
+	margin: 22.5%;
 	margin-top: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #f7eee6;
+	background-color:  transparent;
 
 }
 
@@ -28,11 +34,14 @@
 /*  index body  */
 body{
 	font-family: Arial;
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/blackbackground.jpg");
 	width: 100%;
 	height: 100%;
 	background-size: 100%;
 }
+
+/* title background  */
+
 
 /*  css playground body  */
 .cssplayground{
@@ -43,10 +52,14 @@ body{
 	background-size: 100%;
 }
 
+p{
+	color:red;
+}
+
 h1{
 	color: red;
 }
-
+/* classes H1  */
 .cat{
 	color: white;
 	border:2px solid white;
@@ -55,7 +68,7 @@ h1{
 	list-style-position: inside;
 }
 
-
+/* statements defintitions  */
 .bored{
 	border: 10px solid black;
 	text-align: center;
@@ -70,3 +83,181 @@ h1{
 .centering{
 	list-style-position: inside;
 }
+/* CSS Smiley Face*/
+
+#tophead{
+  width:200px;
+  height:200px;
+  background-color:yellow;
+  position:fixed;
+  margin: 10px 0px 0px 450px;
+  border-radius:180px;
+  border:5px solid black;
+}
+.eye1{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  background-color:black;
+  margin: 65px 0px 0px 510px;
+  border-radius: 90px;
+  
+}
+.eye2{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  background-color:black;
+  margin: 65px 0px 0px 590px;
+  border-radius: 90px;
+  
+}
+.pupil1{
+  width: 25px;
+  height:25px;
+  position: relative;
+  background-color:white;
+  margin: 0px 0px 0px 10px;
+  border-radius: 90px;
+  
+}
+.pupil11{
+  width: 25px;
+  height:25px;
+  position: relative;
+  background-color:white;
+  margin: 0px 0px 0px 15px;
+  border-radius: 90px;
+  
+}
+.pupil2{
+  width: 25px;
+  height:25px;
+  position: relative;
+  background-color:white;
+  margin: 0px 0px 0px 10px;
+  border-radius: 90px;
+  
+}
+.pupil22{
+  width: 25px;
+  height:25px;
+  position: relative;
+  background-color:white;
+  margin: 0px 0px 0px 15px;
+  border-radius: 90px;
+}
+.mouth{
+  position: fixed;
+  background-color:black;
+  margin: 80px 0px 0px 510px;
+  border-top: 60px solid yellow;
+  border-right: 0px solid transparent;
+  border-bottom: 60px solid black;
+  border-left: 120px solid transparent;
+  border-radius: 90px;
+  
+}
+.mouth2{
+  position: fixed;
+  background-color:transparent;
+  margin: 100px 0px 0px 515px;
+  border-top: 40px solid transparent;
+  border-right: 0px solid red;
+  border-bottom: 40px solid red;
+  border-left: 80px solid transparent;
+  border-radius: 90px;
+  
+}
+.eyebrow1{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  background-color:black;
+  margin: 25px 0px 0px 510px;
+  border-radius: 90px;
+  
+}
+.eyebrow11{
+  width: 50px;
+  height:50px;
+  position: relative;
+  background-color:yellow;
+  margin: 10px 0px 0px 0px;
+  border-radius: 90px;
+  
+}
+.eyebrow2{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  background-color:black;
+  margin: 25px 0px 0px 590px;
+  border-radius: 90px;
+  
+}
+.eyebrow22{
+  width: 50px;
+  height:50px;
+  position: relative;
+  background-color:yellow;
+  margin: 10px 0px 0px 0px;
+  border-radius: 90px;
+  
+}
+
+/* Bootstrap boxes  */
+
+
+.Project-box-2{
+	height: 300px;
+	background-color: green;
+	color: black;
+}
+
+.Project-box-1{
+	color: black;
+	height: 300px;
+	background-color: purple;
+}
+
+/*bootstrap portfolio boxes  */
+
+.Portfolio-box-1{
+	color: black;
+	height: 300px;
+	background-color: red;
+	border: 5px solid black;
+}
+.Portfolio-box-2{
+	color: black;
+	height: 300px;
+	background-color: green;
+	border: 5px solid black;
+}
+.Portfolio-box-3{
+	color: black;
+	height: 300px;
+	background-color: purple;
+	border: 5px solid black;
+}
+.Portfolio-box-4{
+	color: black;
+	height: 300px;
+	background-color: white;
+	border: 5px solid black;
+}
+.Portfolio-box-5{
+	color: black;
+	height: 300px;
+	background-color: blue;
+	border: 5px solid black;
+}
+.Portfolio-box-6{
+	color: black;
+	height: 300px;
+	background-color: orange;
+	border: 5px solid black;
+}
+
+
